@@ -22,7 +22,7 @@
 
 - (instancetype)init NS_UNAVAILABLE;
 
-@property (nonatomic, strong) id<LoopGalleryViewManager> loopGalleryManager;
+@property (nonatomic, weak) id<LoopGalleryViewManager> loopGalleryManager;
 @property (nonatomic, strong, readonly) UICollectionView *collectionView;
 
 @end
